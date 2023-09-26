@@ -1,0 +1,25 @@
+<h1>Salesforce Marketing Cloud Web Form: Redirect</h1>
+
+    <form action="https://cloud.my.memorialhermann.org/Test%20Form%20Handler" method="POST">
+
+        <!-- First Name Field -->
+
+        <label for="first">First Name:</label>
+
+        <input type="text" id="first" name="first" required="">
+
+        <!-- Last Name Field -->
+
+        <label for="last">Last Name:</label>
+
+        <input type="text" id="last" name="last" required="">
+
+        <!-- Email Field -->
+
+        <label for="email">Email:</label>
+
+        <input type="email" id="email" name="email" required="">
+
+        <button type="submit">Submit</button>
+
+    </form>
